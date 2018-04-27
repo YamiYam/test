@@ -14,6 +14,17 @@
 		6177CCD5208E702200ACDC01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6177CCD3208E702200ACDC01 /* LaunchScreen.storyboard */; };
 		6177CCE0208E702200ACDC01 /* AttendenceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6177CCDF208E702200ACDC01 /* AttendenceAppTests.swift */; };
 		6177CCEB208E702200ACDC01 /* AttendenceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6177CCEA208E702200ACDC01 /* AttendenceAppUITests.swift */; };
+		6186740320925ACC00064DF3 /* Workshop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186740220925ACC00064DF3 /* Workshop.swift */; };
+		6186740520925ADB00064DF3 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186740420925ADB00064DF3 /* Name.swift */; };
+		6186740720925AE700064DF3 /* Employer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186740620925AE700064DF3 /* Employer.swift */; };
+		619331F9209115EB000E3427 /* Cluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619331F8209115EB000E3427 /* Cluster.swift */; };
+		61F38471208FB81F0024FCE9 /* orbis.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F38470208FB81F0024FCE9 /* orbis.png */; };
+		61F38475208FBE710024FCE9 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F38474208FBE710024FCE9 /* signInViewController.swift */; };
+		61F38477208FBE930024FCE9 /* confirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F38476208FBE930024FCE9 /* confirmationViewController.swift */; };
+		61F38479208FBEAE0024FCE9 /* clusterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F38478208FBEAE0024FCE9 /* clusterViewController.swift */; };
+		61F3847B208FBEC10024FCE9 /* workshopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3847A208FBEC10024FCE9 /* workshopViewController.swift */; };
+		61F3847D208FBED90024FCE9 /* nameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3847C208FBED90024FCE9 /* nameViewController.swift */; };
+		61F3847F208FBEF00024FCE9 /* employerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3847E208FBEF00024FCE9 /* employerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		6177CCE6208E702200ACDC01 /* AttendenceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttendenceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6177CCEA208E702200ACDC01 /* AttendenceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendenceAppUITests.swift; sourceTree = "<group>"; };
 		6177CCEC208E702200ACDC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6186740220925ACC00064DF3 /* Workshop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workshop.swift; sourceTree = "<group>"; };
+		6186740420925ADB00064DF3 /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		6186740620925AE700064DF3 /* Employer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employer.swift; sourceTree = "<group>"; };
+		619331F8209115EB000E3427 /* Cluster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cluster.swift; sourceTree = "<group>"; };
+		61F38470208FB81F0024FCE9 /* orbis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orbis.png; sourceTree = "<group>"; };
+		61F38474208FBE710024FCE9 /* signInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		61F38476208FBE930024FCE9 /* confirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confirmationViewController.swift; sourceTree = "<group>"; };
+		61F38478208FBEAE0024FCE9 /* clusterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clusterViewController.swift; sourceTree = "<group>"; };
+		61F3847A208FBEC10024FCE9 /* workshopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workshopViewController.swift; sourceTree = "<group>"; };
+		61F3847C208FBED90024FCE9 /* nameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameViewController.swift; sourceTree = "<group>"; };
+		61F3847E208FBEF00024FCE9 /* employerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = employerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +119,14 @@
 		6177CCC9208E702000ACDC01 /* AttendenceApp */ = {
 			isa = PBXGroup;
 			children = (
+				619331F5209114A7000E3427 /* Structs */,
+				61F38473208FBE4E0024FCE9 /* SubViewControllers */,
 				6177CCCA208E702000ACDC01 /* AppDelegate.swift */,
 				6177CCCC208E702000ACDC01 /* ViewController.swift */,
 				6177CCCE208E702000ACDC01 /* Main.storyboard */,
 				6177CCD1208E702200ACDC01 /* Assets.xcassets */,
 				6177CCD3208E702200ACDC01 /* LaunchScreen.storyboard */,
+				61F38470208FB81F0024FCE9 /* orbis.png */,
 				6177CCD6208E702200ACDC01 /* Info.plist */,
 			);
 			path = AttendenceApp;
@@ -123,6 +148,30 @@
 				6177CCEC208E702200ACDC01 /* Info.plist */,
 			);
 			path = AttendenceAppUITests;
+			sourceTree = "<group>";
+		};
+		619331F5209114A7000E3427 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				619331F8209115EB000E3427 /* Cluster.swift */,
+				6186740220925ACC00064DF3 /* Workshop.swift */,
+				6186740420925ADB00064DF3 /* Name.swift */,
+				6186740620925AE700064DF3 /* Employer.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		61F38473208FBE4E0024FCE9 /* SubViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				61F38474208FBE710024FCE9 /* signInViewController.swift */,
+				61F38476208FBE930024FCE9 /* confirmationViewController.swift */,
+				61F38478208FBEAE0024FCE9 /* clusterViewController.swift */,
+				61F3847A208FBEC10024FCE9 /* workshopViewController.swift */,
+				61F3847C208FBED90024FCE9 /* nameViewController.swift */,
+				61F3847E208FBEF00024FCE9 /* employerViewController.swift */,
+			);
+			path = SubViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +281,7 @@
 				6177CCD5208E702200ACDC01 /* LaunchScreen.storyboard in Resources */,
 				6177CCD2208E702200ACDC01 /* Assets.xcassets in Resources */,
 				6177CCD0208E702000ACDC01 /* Main.storyboard in Resources */,
+				61F38471208FB81F0024FCE9 /* orbis.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +306,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6186740320925ACC00064DF3 /* Workshop.swift in Sources */,
 				6177CCCD208E702000ACDC01 /* ViewController.swift in Sources */,
+				61F3847B208FBEC10024FCE9 /* workshopViewController.swift in Sources */,
+				61F38475208FBE710024FCE9 /* signInViewController.swift in Sources */,
+				61F3847F208FBEF00024FCE9 /* employerViewController.swift in Sources */,
+				61F38477208FBE930024FCE9 /* confirmationViewController.swift in Sources */,
+				61F3847D208FBED90024FCE9 /* nameViewController.swift in Sources */,
 				6177CCCB208E702000ACDC01 /* AppDelegate.swift in Sources */,
+				61F38479208FBEAE0024FCE9 /* clusterViewController.swift in Sources */,
+				6186740520925ADB00064DF3 /* Name.swift in Sources */,
+				6186740720925AE700064DF3 /* Employer.swift in Sources */,
+				619331F9209115EB000E3427 /* Cluster.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +497,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AnkenyCentennial.AttendenceApp;
+				PRODUCT_BUNDLE_IDENTIFIER = Orbis.AttendenceApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,7 +515,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AnkenyCentennial.AttendenceApp;
+				PRODUCT_BUNDLE_IDENTIFIER = Orbis.AttendenceApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
